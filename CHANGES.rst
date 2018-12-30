@@ -11,6 +11,7 @@ Improvements:
  - Show userId below display name in member detail screen (#2756)
  - Clicking on a user and a room avatar opens a new screen with animation to view the avatar in full screen, with zoom capabilities (#2455)
  - Added Troubleshoot Notification settings page
+ - Notification settings re-organization
 
 Other changes:
  -
@@ -26,7 +27,8 @@ Bugfix:
  - Fix avatar icon characters being a little bit offset to right.
  - Fix Stopping Loading View after Upload of User Avatar (#2801)
  - Fix no display of image without `info` (#2666)
-
+ - LED notifications are not working (#2512)
+ - Defensive code to ensure that FCM push will display a notification even if sync fails.
 
 Translations:
  -
